@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.navbar {
+    height: 5rem;
+    box-shadow: 0 0 0.5rem 0 #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+.navbar__search-input {
+    height: 2rem;
+    width: clamp(5rem, 40vw, 30rem);
+}
+
+.navbar__search-form {
+    display: flex;
+    align-items: center;   
+}
+
+.navbar__submit {
+    border: none;
+    background: none;
+}
+
+.navbar__logo img {
+    height: 3rem;
+}
+
+.mdi-magnify {
+    font-size: 1.5rem;
+}
+
+.output {
+    max-width: 50rem;
+    margin: auto;
+    padding: 1rem;
+}
+
+.word {
+    font-size: 2.5rem; 
+}
+
+.phonetic {
+    font-size: 1.5rem;
+    font-family: serif;
+}
+
+.definition-block { 
+    margin: 1rem 0;
+    box-shadow: 0 0 0.5rem 0 #ccc;
+    padding: 1rem;
+}
